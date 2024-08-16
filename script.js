@@ -11,7 +11,7 @@ async function getCountryFlagsAndNames() {
 
     // Loop through each country and create a card for it
     countries.forEach(country => {
-      const countryCard = document.createElement('div');
+      const countryCard = document.createElement('article');
       countryCard.classList.add('country-card');
 
       countryCard.innerHTML = `
